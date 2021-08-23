@@ -1,0 +1,209 @@
+
+@font-face {
+     font-family: 'S-CoreDream-3Light';
+     src: url('/https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+    font-family: 'MaruBuri-Regular';
+    src: url('/https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    src : url('/Users/seodonghyeok/Documents/GitHub/test2/me/Vogue.ttf');
+    font-family : "Vogue"
+}
+@font-face {
+     font-family: 'S-CoreDream-6Bold';
+     src: url('/https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+
+body{
+  background-image: url("/Users/seodonghyeok/Documents/GitHub/test2/me/background.jpg");
+  background-size: cover;
+  margin: 0 ;
+  padding:0;
+  /* background-image: url("배경2.png");
+  background-size: cover; */
+}
+.top_header{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-right: 35px;
+  font-family: 'S-CoreDream-6Bold';
+  font-size: 20px;
+
+}
+ ul {
+  border-bottom: solid 1px black;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'MaruBuri-Regular';
+  margin:  0 220px 0 220px;
+  padding: 25px;
+  list-style: none;
+  font-size:18px
+  }
+  a{
+    color:black;
+    text-decoration: none;
+  }
+  #grid{
+    display: flex;
+    justify-content: space-between;
+    /*grid-template-columns: 500px 1fr;*/
+    margin: 25px 220px 0 220px;
+
+
+    font-family : "Vogue"
+  }
+  #mainimg {
+    display: inline;
+    width: 820px;
+    height: 558px;
+    padding-top:100px;
+    object-fit: contain;
+  }
+  #article{
+    justify-content: flex-end;
+    padding-top:100px;
+    /*padding-left: 100px;*/
+    width: 500px;
+    height: 558px;
+    font-size: 70px;
+  }
+  #intro{
+    border-top: solid 2px black;
+    padding-top: 20px;
+  }
+  h1{
+    margin: 0;
+    margin-left: : 30px;
+    font-size: 170px;
+  }
+  h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left:5px;
+    font-size: 82px;
+  }
+  p{
+    margin-top: 237px;
+    margin-bottom : 0px;
+    margin-left: 420px
+  }
+
+
+  #grid2{
+    display: flex;
+    justify-content: space-between;
+    /*grid-template-columns: 500px 1fr;*/
+    margin: 130px 210px 0 210px;
+    height: 580px;
+    font-family : "Vogue"
+  }
+  #midtitle{
+    margin: 40px 0 40px 15px;
+  }
+  #drum{
+    border-left: solid 1px black;
+    border-
+  }
+  #drum1{
+    display: flex;
+    justify-content: flex-start;
+    margin:0 ;
+    margin-left: 20px;
+    font-family: 'MaruBuri-Regular';
+    font-size: 18px;
+  }
+  #gym{
+    border-left: solid 1px black;
+  }
+  #gym1{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    font-family: 'MaruBuri-Regular';
+    margin-left: 20px;
+    font-size: 18px;
+  }
+  #fashion{
+    border-left: solid 1px black;
+  }
+  #fashion1{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    font-family: 'MaruBuri-Regular';
+    margin-left: 20px;
+    font-size: 18px;
+  }
+  #num1{
+    display: flex;
+    align-items: flex-end;
+    margin: 0;
+    font-size: 20px;
+  }
+
+
+  #lastimg{
+    display: flex;
+    justify-content: center;
+    margin: 130px 210px 0 210px;
+  }
+  #me{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+
+  }
+  #article2{
+    justify-content: flex-end;
+    margin: 0;
+    font-family : "Vogue";
+  }
+  #last{
+    margin: 0;
+    margin-top: 30px;
+    font-family: 'MaruBuri-Regular';
+    font-size: 20px;
+  }
+  #end{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: 20px;
+  }
+ #endtitle{
+   font-size: 120px;
+ }
+ #endtitle2{
+   margin: 0;
+   font-size: 60px;
+ }
+#endtitle3{
+  display: flex;
+  justify-content:flex-end;
+  margin: 0;
+  border-bottom:solid 1px black;
+  padding-bottom: 20;
+  font-size: 110px;
+}
+#num3{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 0;
+  margin-top: 55px;
+  height: 144px;
+  font-size: 70px;
+}
+#introduce{
+  margin-top: 20px;
+}/*
