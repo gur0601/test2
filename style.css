@@ -12,7 +12,7 @@
     font-style: normal;
 }
 @font-face {
-    src : url('/Users/seodonghyeok/Documents/GitHub/test2/me/Vogue.ttf');
+    src : url('./Vogue.ttf');
     font-family : "Vogue"
 }
 @font-face {
@@ -23,7 +23,7 @@
 }
 
 body{
-  background-image: url("/Users/seodonghyeok/Documents/GitHub/test2/me/background.jpg");
+  background-image: url("./background.jpg");
   background-size: cover;
   margin: 0 ;
   padding:0;
